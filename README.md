@@ -19,7 +19,7 @@ $ rails db:create
 
 $ rails db:migrate
 
-$ rails db:seed1
+$ rails db:seed
 
 $ rails console
 ~~~~~~~~~~~~~~~~~
