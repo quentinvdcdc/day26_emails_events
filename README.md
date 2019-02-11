@@ -1,24 +1,34 @@
-# README
+Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, déjà) !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Le Eventbrite Like !
 
-Things you may want to cover:
+Le projet du jour consiste au fait que tu puisses;
 
-* Ruby version
+1. Te register (tu recevras un mail). 
+2. Créer un event.
+3. Rejoindre un event (un mail sera envoyé à celui qui a crée l'event).
+  
+__komment sa marche ?__
 
-* System dependencies
+~~~~~~~~~~~~~~~~~
+$ bundle install
 
-* Configuration
+$ rails db:create
 
-* Database creation
+$ rails db:migrate
 
-* Database initialization
+$ rails db:seed
 
-* How to run the test suite
+$ rails console
+~~~~~~~~~~~~~~~~~
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Made with ♥ by:
 
-* Deployment instructions
+##### Quentin Vandecandelaere -> @Quentin Vandecandelaere
 
-* 
+##### Martin François -> @tinmar
+
+##### Xavier Refour -> @Xavier.Refour
+
+
+![](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif)
