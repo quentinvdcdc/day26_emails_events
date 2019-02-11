@@ -2,19 +2,32 @@ Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, d
 
 ### Le Eventbrite Like !
 
+Le projet du jour consiste au fait que tu puisse;
+
+  1. Te register (tu recevra un mail).
+  
+  2. Créer un event.
+  
+  3. Rejoindre un event (un mail sera envoyé à celui qui a crée l'event).
+  
 __komment sa marche ?__
 
 ~~~~~~~~~~~~~~~~~
-§ bundle install
+$ bundle install
 
 $ rails db:create
 
 $ rails db:migrate
 
-$ rails db:seed
+$ rails db:seed1
 
-$ rails server
-
-localhost:3000
+$ rails console
 ~~~~~~~~~~~~~~~~~
 
+#### Made with ♥ by:
+
+##### Quentin Vandecandelaere -> @Quentin Vandecandelaere
+
+##### Martin François -> @tinmar
+
+##### Xavier Refour -> @Xavier.Refour
