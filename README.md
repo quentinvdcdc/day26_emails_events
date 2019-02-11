@@ -31,3 +31,6 @@ $ rails console
 ##### Martin François -> @tinmar
 
 ##### Xavier Refour -> @Xavier.Refour
+
+
+![](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif)
