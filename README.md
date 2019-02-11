@@ -2,9 +2,9 @@ Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, d
 
 ### Le Eventbrite Like !
 
-Le projet du jour consiste au fait que tu puisse;
+Le projet du jour consiste au fait que tu puisses;
 
-  1. Te register (tu recevra un mail).
+  1. Te register (tu recevras un mail).
   
   2. Créer un event.
   
