@@ -1,24 +1,20 @@
-# README
+Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, déjà) !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Le Eventbrite Like !
 
-Things you may want to cover:
+__komment sa marche ?__
 
-* Ruby version
+~~~~~~~~~~~~~~~~~
+§ bundle install
 
-* System dependencies
+$ rails db:create
 
-* Configuration
+$ rails db:migrate
 
-* Database creation
+$ rails db:seed
 
-* Database initialization
+$ rails server
 
-* How to run the test suite
+localhost:3000
+~~~~~~~~~~~~~~~~~
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* 
