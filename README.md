@@ -4,12 +4,12 @@ Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, d
 
 Le projet du jour consiste au fait que tu puisses;
 
-1. Te register (tu recevras un mail). 
+1. Te register (tu recevras un mail).
 2. Créer un event.
 3. Rejoindre un event (un mail sera envoyé à celui qui a crée l'event).
-  
-__komment sa marche ?__
 
+__komment sa marche ?__
+https://eventrite.herokuapp.com/
 ~~~~~~~~~~~~~~~~~
 $ bundle install
 
