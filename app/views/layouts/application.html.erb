@@ -7,9 +7,21 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Bootstrap CSS -->
+ <link href="https://bootswatch.com/4/solar/bootstrap.min.css" rel="stylesheet" type="text/css">
+
   </head>
 
   <body>
-    <%= yield %>
+
+
+    <!--div class="container">
+    </div>< /.container -->
+    <div class="container text-primary">
+      <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+      <%= yield %>
+    </div>
   </body>
 </html>
