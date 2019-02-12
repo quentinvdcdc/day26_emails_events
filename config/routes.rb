@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'home/index'
+
+  root 'home#index'
   get 'home/secret'
   devise_for :users
   get 'static_pages/home'
