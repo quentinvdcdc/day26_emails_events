@@ -9,7 +9,9 @@ Le projet du jour consiste au fait que tu puisses;
 3. Rejoindre un event (un mail sera envoyé à celui qui a crée l'event).
 
 __komment sa marche ?__
+
 https://eventrite.herokuapp.com/
+
 ~~~~~~~~~~~~~~~~~
 $ bundle install
 
@@ -31,4 +33,4 @@ $ rails console
 ##### Xavier Refour -> @Xavier.Refour
 
 
-![](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif)
+![](https://media.giphy.com/media/RZxhxSgQBzhRK/giphy.gif)
