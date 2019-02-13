@@ -12,7 +12,11 @@ Le projet du jour consiste au fait que tu puisses;
 
 __komment sa marche ?__
 
+<<<<<<< HEAD
 https://the-eventbrite-app.herokuapp.com/
+=======
+https://eventrite.herokuapp.com/
+>>>>>>> ed33330420565da2e1bcd24e9c98edd07dbd2e8a
 
 ~~~~~~~~~~~~~~~~~
 $ bundle install
