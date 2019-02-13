@@ -9,5 +9,5 @@ class Attendance < ApplicationRecord
   	@event = Attendance.last.event
   	@attendee = Attendance.last.attendee
   	UserMailer.event_subscription_email(@event, @attendee).deliver_now
-  end
+	end
 end

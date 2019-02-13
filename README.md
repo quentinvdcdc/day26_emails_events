@@ -1,3 +1,5 @@
+![](https://media.giphy.com/media/PVQJ0IX4cp0s/giphy.gif)
+
 Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, déjà) !
 
 ### Le Eventbrite Like !
@@ -5,11 +7,13 @@ Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, d
 Le projet du jour consiste au fait que tu puisses;
 
 1. Te register (tu recevras un mail).
-2. Créer un event.
-3. Rejoindre un event (un mail sera envoyé à celui qui a crée l'event).
+2. Créer un event, indiquer son prix.
+3. Rejoindre un event, payer pour ta participation.
 
 __komment sa marche ?__
-https://eventrite.herokuapp.com/
+
+https://the-eventbrite-app.herokuapp.com/
+
 ~~~~~~~~~~~~~~~~~
 $ bundle install
 
@@ -31,4 +35,4 @@ $ rails console
 ##### Xavier Refour -> @Xavier.Refour
 
 
-![](https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif)
+![](https://media.giphy.com/media/RZxhxSgQBzhRK/giphy.gif)

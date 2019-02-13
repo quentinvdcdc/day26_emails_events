@@ -1,5 +1,5 @@
 class Event < ApplicationRecord
-  belongs_to :administrator, class_name: "User"
+	belongs_to :administrator, class_name: "User"
   has_many :attendances
   has_many :attendees, class_name: "User", through: :attendances
   validate :start_date_cannot_be_created_in_the_past, on: :create
@@ -28,6 +28,9 @@ class Event < ApplicationRecord
   def start_date_cannot_be_updated_when_past
   	errors.add(:start_date, "can't be updated in the past") if
   		start_date < Date.today
-  end
+	end
 
+  def end_date
+    self.start_date + (self.duration).minute
+  end
 end

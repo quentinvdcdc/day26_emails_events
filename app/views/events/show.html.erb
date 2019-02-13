@@ -1,0 +1,19 @@
+<h1>Title : <%= @event.title %></h1>
+<p>Description : <%= @event.description %></p>
+<p>Email de l'admin : <%= @event.administrator.email %></p>
+<p>Nombre d'inscrit : <%= @event.attendances.size %></p>
+<p>Email de l'admin : <%= @event.administrator.email %></p>
+<p>Début : <%= @event.start_date %></p>
+<p>Fin : <%= @event.end_date %></p>
+<p>Lieu : <%= @event.location %></p>
+<p>Prix : <%= @event.price %></p>
+
+<% if !already_attendee_or_admin?(@event) %>
+<%= link_to 'Inscription', new_event_attendance_path(@event.id) %>
+<% else %>
+<p>Vous en êtes déjà, ça va être chouette</p>
+<% end %>
+
+<% if is_admin?(@event) %>
+<%= link_to 'Mon Espace Privé', event_attendances_path(@event.id) %>
+<% end %>

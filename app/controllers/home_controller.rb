@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
-  before_action :authenticate_user!, only: [:secret]
-
+	before_action :authenticate_user!, only: [:secret]
   def index
+  	@events = Event.all
   end
 
   def secret
