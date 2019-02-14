@@ -45,10 +45,9 @@ class EventsController < ApplicationController
 
   def authenticate_administrator
     @event = Event.find(params[:id])
-    if current_user == @event.administrator
-      true
-    else
-      false
+    unless current_user == @event.administrator
+      flash[:danger] = "Vous n'êtes pas l'admin de cet event, bon sang !"
+      redirect_to root_path
     end
   end
 end

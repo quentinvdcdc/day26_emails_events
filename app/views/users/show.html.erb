@@ -1,0 +1,13 @@
+<h1>Bonjour <%= @user.first_name %>, voici la page de ton profil</h1>
+<p>Ton email est : <%= @user.email %></p>
+<p>Ton prénom est :<%= @user.first_name %></p>
+<p>Ton nom est : <%= @user.last_name %></p>
+<p>Voici comment tu te décris : <%= @user.description %></p>
+<h3>Tu as créé les événements</h3>
+<% @events.each do |event| %>
+	<%= event.title %><br />
+	<%= link_to "Details sur l'event", event_path(event.id) %><br />
+	<%= "*" * 20 %><br /><br />
+<% end %>
+<h3>Et si tu nous en disais un peu plus ? Tu n'es pas qu'un courriel, bigre !</h3>
+<%= link_to "Update profile", edit_user_path(@user.id) %>

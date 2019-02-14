@@ -1,0 +1,15 @@
+<h1>Description de ton profil sur Eventbrite-Like</h1>
+<%= form_tag url_for(action: 'update'), method: "patch" do %>
+	<!--input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>"-->
+  <!--input type="submit" value="Valider"-->
+  <%= label_tag 'First Name' %>
+  <%= text_field_tag 'first_date', @user.first_name %>
+  <br /> <br />
+  <%= label_tag 'Last Name' %>
+  <%= text_field_tag 'last_name', @user.last_name %>
+  <br /> <br />
+  <%= label_tag 'Description' %>
+  <%= text_area_tag 'description', @user.description %>
+  <br /> <br />
+  <%= submit_tag "Mise à jour du profil" %>
+<% end %>
