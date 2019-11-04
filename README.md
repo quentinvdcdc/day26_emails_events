@@ -1,42 +1,9 @@
-![](https://media.giphy.com/media/PVQJ0IX4cp0s/giphy.gif)
+Bienvenue dans notre projet de cette 6ème semaine (oui, déjà) !
 
-Coucou la correction. Bienvenue dans notre projet de cette 6ème semaine (oui, déjà) !
+### L'Eventbrite Like !
 
-### Le Eventbrite Like !
+Le projet du jour consiste en 3 points :
 
-Le projet du jour consiste au fait que tu puisses;
-
-1. Te register (tu recevras un mail).
-2. Créer un event, indiquer son prix.
-3. Rejoindre un event, payer pour ta participation.
-
-__komment sa marche ?__
-
-<<<<<<< HEAD
-https://the-eventbrite-app.herokuapp.com/
-=======
-https://eventrite.herokuapp.com/
->>>>>>> ed33330420565da2e1bcd24e9c98edd07dbd2e8a
-
-~~~~~~~~~~~~~~~~~
-$ bundle install
-
-$ rails db:create
-
-$ rails db:migrate
-
-$ rails db:seed
-
-$ rails console
-~~~~~~~~~~~~~~~~~
-
-#### Made with ♥ by:
-
-##### Quentin Vandecandelaere -> @Quentin Vandecandelaere
-
-##### Martin François -> @tinmar
-
-##### Xavier Refour -> @Xavier.Refour
-
-
-![](https://media.giphy.com/media/RZxhxSgQBzhRK/giphy.gif)
+1. Se connecter (avec réception d'un courriel),
+2. Créer un event et indiquer son prix,
+3. Rejoindre un event et payer sa participation.
